@@ -24,8 +24,6 @@ public class IntegerEx {
 		System.out.println(1_000_000_000); //10억출력
 		System.out.println(3_000_000_000L); //long형 자료는 영문자 L을 붙이는데 대문자를 사용해야 합니다.
 	
-		int result;
-		result = sNum + bNum;
 		
 		long lNum = 3000000000l;
 		System.out.println(lNum);
