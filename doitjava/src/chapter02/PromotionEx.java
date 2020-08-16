@@ -10,6 +10,9 @@ public class PromotionEx {
 		intValue = charValue; //int <- char
 		System.out.println("가의 유니코드 :" + intValue);
 		
+		intValue = '가';
+		System.out.println(intValue);
+		
 		intValue = 200;
 		double doubleValue = intValue;
 		System.out.println(doubleValue);
