@@ -13,6 +13,12 @@ public class PromotionEx {
 		intValue = '°¡';
 		System.out.println(intValue);
 		
+		char charValue2 = 44032;
+		System.out.println(charValue2);
+		
+		char charValue3 = '³ª';
+		System.out.println(charValue3);
+		
 		intValue = 200;
 		double doubleValue = intValue;
 		System.out.println(doubleValue);
