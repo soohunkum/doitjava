@@ -27,5 +27,5 @@ public class UnaryOperator {
 		System.out.println(++c);//111 
 	
 	}
-
+ 
 }
