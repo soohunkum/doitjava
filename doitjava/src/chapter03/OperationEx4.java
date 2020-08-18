@@ -9,5 +9,10 @@ public class OperationEx4 {
 		ch = (fatherAge > motherAge)? 'T':'F';
 		
 		System.out.println(ch);
+		
+		int num = 10;
+		boolean isEven;
+		isEven = ((num%2) == 0) ? true : false;
+		System.out.println("Â¦¼öÀÎ°¡¿ä?" + (isEven? "Â¦¼ö" : "È¦¼ö"));
 	}
 }
