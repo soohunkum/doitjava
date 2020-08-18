@@ -23,7 +23,7 @@ public class ArithmeticOperator {
 			System.out.println(doubleResult);
 			
 			doubleResult = 3/2;
-			System.out.println(doubleResult);
+			System.out.println(doubleResult); 
 			
 	}
 
