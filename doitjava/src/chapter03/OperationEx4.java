@@ -15,4 +15,4 @@ public class OperationEx4 {
 		isEven = ((num%2) == 0) ? true : false;
 		System.out.println("Â¦¼öÀÎ°¡¿ä?" + (isEven? "Â¦¼ö" : "È¦¼ö"));
 	}
-}
+} 
