@@ -18,7 +18,7 @@ public class MetroCity {
 		riches = 20;
 		
 		
-		if(isCapital) {
+		if(isCapital = true) {
 			if(citizens >= 100) {
 				isMetro = true;
 			}else if(riches >= 50) {

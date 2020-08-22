@@ -37,7 +37,7 @@ public class ScannerEx {
 //		System.out.println("입력한 문자열:" + str);
 //		str = sc.next();
 //		System.out.println("입력한 문자열:" + str);
-		
+	
 		String str = sc.nextLine(); // "nextline()"은 한줄입력가능합니다
 		System.out.println("입력한 문자열:" + str);
 		
