@@ -14,25 +14,25 @@ public class MetroCity {
 		
 		System.out.println("현재 도시는 메트로폴리스입니까?");
 		isCapital = false;
-		citizens = 150; //만단위를 사용
-		riches = 80;
+		citizens = 120; //만단위를 사용
+		riches = 20;
 		
 		
-//		if(isCapital) {
-//			if(citizens >= 100) {
-//				isMetro = true;
-//			}else if(riches >= 50) {
-//				isMetro = true;
-//			}else {
-//				isMetro = false;
-//			}
-//		}else {
-//			if(riches>=50) {
-//				isMetro = true;
-//			}else {
-//				isMetro = false;
-//			}
-//		}       //중첩if문
+		if(isCapital) {
+			if(citizens >= 100) {
+				isMetro = true;
+			}else if(riches >= 50) {
+				isMetro = true;
+			}else {
+				isMetro = false;
+			}
+		}else {
+			if(riches>=50) {
+				isMetro = true;
+			}else {
+				isMetro = false;
+			}
+		}       //중첩if문
 		
 		
 		
@@ -45,10 +45,10 @@ public class MetroCity {
 //		}    //중첩하지 않은 if문
 		
 		
-		isMetro = (isCapital && citizens >=100)  || (riches >= 50) ? true : false;
-				//3항연산자(논리연산자) 사용
-
-		
+//		isMetro = (isCapital && citizens >=100)  || (riches >= 50) ? true : false;
+//				//3항연산자(논리연산자) 사용
+//
+//		
 		
 		System.out.println("수도여부 :" + isCapital);
 		System.out.println("인구수 :" + citizens+ "만명");
