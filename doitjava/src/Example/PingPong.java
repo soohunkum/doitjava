@@ -25,7 +25,7 @@ public class PingPong {
 				System.out.print("ping");
 			}
 			if(b%5==0) {
-				System.out.println("pong");
+				System.out.print("pong");
 			}
 			System.out.println();
 		}
@@ -35,4 +35,4 @@ public class PingPong {
 
 	}
 
-//3의 배수에 ping 5의 배수에 pong 15의 배수에 pingpong
+//3의 배수에 ping 5의 배수에 "pong" 15의 배수에 "pingpong"
