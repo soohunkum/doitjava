@@ -15,15 +15,14 @@ public class Exam12 {
 				}else {
 				System.out.print("\\");
 				}
-			
-			System.out.println();
-
-		}
+			}
 			System.out.println();
 		}
+	
 		sc.close();
 
 	}
-	}
+}
+
 
 

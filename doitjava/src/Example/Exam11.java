@@ -15,6 +15,7 @@ public class Exam11 {
 			}
 			System.out.println();
 		}
+		
 
 		sc.close();
 
