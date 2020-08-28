@@ -12,16 +12,18 @@ public class Exam12 {
 			for (int j = 0; j <= i ; j++) {
 				if(j%2==0) {
 				System.out.print("$");
-			}else {
+				}else {
 				System.out.print("\\");
-			}
+				}
 			
 			System.out.println();
 
+		}
+			System.out.println();
 		}
 		sc.close();
 
 	}
 	}
-}
+
 

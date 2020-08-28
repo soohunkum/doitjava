@@ -14,10 +14,11 @@ public class Exam18 {
 			}else {
 			System.out.print("$");
 		}  
+			}		
 				
 				System.out.println();
 			}
 		sc.close();
 }
 	}
-}
+
