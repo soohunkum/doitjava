@@ -2,7 +2,7 @@ package Example;
 
 import java.util.Scanner;
 
-public class Exam10 {
+public class Exam10a {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -15,10 +15,10 @@ public class Exam10 {
 			
 			System.out.println();
 
-		}
+		}                 
+		
 		sc.close();
 		
+		
 	}
-	
 }
-	

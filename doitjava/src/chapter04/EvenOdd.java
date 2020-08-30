@@ -13,6 +13,7 @@ public class EvenOdd {
 	  	System.out.print("> ");
 	  	
 	  	int Num;
+	  
 	  	Num = sc.nextInt();
 	  	
 	  	if(Num%2 == 0) {

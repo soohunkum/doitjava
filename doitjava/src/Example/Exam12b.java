@@ -2,14 +2,14 @@ package Example;
 
 import java.util.Scanner;
 
-public class Exam12 {
+public class Exam12b {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("몇 줄을 출력할까요?:");
 		int line = sc.nextInt();
 		for (int i = 0; i < line; i++) {
-			for (int j = 0; j <= i ; j++) {
+			for (int j = 0; j <i+1 ; j++) {
 				if(j%2==0) {
 				System.out.print("$");
 				}else {
@@ -20,6 +20,7 @@ public class Exam12 {
 		}
 	
 		sc.close();
+		
 
 	}
 }

@@ -17,6 +17,7 @@ public class CoffeeShop {
 		switch(menu) {
 		case"A":
 		case"a":
+		case"바보":
 			System.out.println("아메리카노를 주문하셨습니다");
 			break;
 		case"M":
