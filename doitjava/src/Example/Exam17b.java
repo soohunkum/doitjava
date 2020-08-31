@@ -2,7 +2,7 @@ package Example;
 
 import java.util.Scanner;
 
-public class Exam17i {
+public class Exam17b {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -11,6 +11,7 @@ public class Exam17i {
 		N = input.nextInt();
 		for(int i = 0; i<N; i++) {
 			for(int j=N-i-1; j>0; j--) {
+	
 				System.out.print(" ");
 			}
 			if(i==N-1) {

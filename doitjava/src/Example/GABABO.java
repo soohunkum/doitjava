@@ -2,7 +2,7 @@ package Example;
 
 import java.util.Scanner;
 
-public class Exam19GABABO {
+public class GABABO {
 
 	public static void main(String[] args) {
 		

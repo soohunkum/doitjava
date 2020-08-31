@@ -2,7 +2,7 @@ package Example;
 
 import java.util.Scanner;
 
-public class Exam18e {
+public class Exam18b {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("몇 줄을 출력할까요?:");

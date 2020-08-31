@@ -2,7 +2,7 @@ package Example;
 
 import java.util.Scanner;
 
-public class Exam14g {
+public class Exam14b {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -24,6 +24,7 @@ public class Exam14g {
 			for(int j=0; j<=i; j++) {
 				System.out.print("*");
 			}
+			
 			System.out.println();
 		}
 			sc.close();
