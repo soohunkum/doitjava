@@ -9,7 +9,7 @@ public class Exam12a {
 		System.out.println("몇 줄을 출력할까요?:");
 		int line = sc.nextInt();
 		for (int i = line-1; i >=0; i--) {
-			for (int j = 0; j <i+1 ; j++) {
+			for (int j = 0; j <=i ; j++) {
 				if(j%2==0) {
 				System.out.print("$");
 				}else {

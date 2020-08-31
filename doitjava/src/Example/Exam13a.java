@@ -17,6 +17,7 @@ public class Exam13a {
 			System.out.print("$");
 		}
 			}	
+			
 				System.out.println();
 			}
 		sc.close();

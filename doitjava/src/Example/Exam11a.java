@@ -9,12 +9,13 @@ public class Exam11a {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("몇 줄을 출력할까요?:");
 		int line = sc.nextInt();
-		for (int a = 0; a <= line; a++) {
-			for (int b = 1; b <=line-a; b++) {
+		for (int a = 0; a < line; a++) {
+			for (int b = 0; b <line-a; b++) {
 				System.out.print("$");
 			}
 			System.out.println();
 		}
+		
 		
 		
 		sc.close();
