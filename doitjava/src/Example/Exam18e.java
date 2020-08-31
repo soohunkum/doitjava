@@ -6,18 +6,33 @@ public class Exam18e {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("몇 줄을 출력할까요?:");
-		int line = sc.nextInt();
-		for (int a = 0; a < line; a++) {
-			for (int b = 0; b < line ; b++) {
-				if(a==b) {
-				System.out.print("@");
-			}else {
-			System.out.print("$");
+		int N;
+		N=sc.nextInt();
+		for (int i = 0; i < N; i++) {
+			for (int j = N-i-1; j >0 ; j--) {
+				System.out.print(" ");
+			}
+			for(int j=0; j<i*2+1; j++) {
+				
+				if(j==0 || j==i*2)
+				System.out.print("*");
+			else 
+			System.out.print(" ");
 		}  
+			System.out.println();
 			}				
+			for(int i =0; i<N; i++) {
+				for(int j=N-i-1; j>0; j--) {
+					System.out.print(" ");
+				}
+				for(int j=0; j<i*2+1 ; j++) {
+					if(i==0||j==i*2)
+						System.out.print("*");
+				}
 				System.out.println();
 			}
 		sc.close();
 }
 	}
+
 

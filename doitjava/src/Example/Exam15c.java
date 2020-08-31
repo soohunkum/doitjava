@@ -10,8 +10,8 @@ public class Exam15c {
 		
 		for(int i=0; i<line; i++) {
 			for(int j=0; j<line; j++) {
-				if(j<line-i) {
-				System.out.print("$");
+				if(j<line-i-1) {
+				System.out.print(" ");
 			}else {
 			System.out.print("*");
 		}
