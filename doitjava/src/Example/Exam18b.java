@@ -21,13 +21,15 @@ public class Exam18b {
 		}  
 			System.out.println();
 			}				
-			for(int i =0; i<N; i++) {
-				for(int j=N-i-1; j>0; j--) {
+			for(int i =1; i<N; i++) {
+				for(int j=0; j<i*2+1; j++) {
 					System.out.print(" ");
 				}
-				for(int j=0; j<i*2+1 ; j++) {
-					if(i==0||j==i*2)
+				for (int j = 0; j < i * 2 + 1; j++) {
+					if (j == 0 || j == i * 2)
 						System.out.print("*");
+					else
+						System.out.print(" ");
 				}
 				System.out.println();
 			}

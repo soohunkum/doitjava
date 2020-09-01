@@ -9,18 +9,18 @@ public class Exam17b {
 		System.out.println("입력하세요: ");
 		int N;
 		N = input.nextInt();
-		for(int i = 0; i<N; i++) {
-			for(int j=N-i-1; j>0; j--) {
-	
+		for (int i = 0; i < N; i++) {
+			for (int j = N - i - 1; j > 0; j--) {
+
 				System.out.print(" ");
 			}
-			if(i==N-1) {
-				for(int j=0; j<i*2+1; j++) {
+			if (i == N - 1) {
+				for (int j = 0; j < i * 2 + 1; j++) {
 					System.out.print("*");
 				}
-			}else {
-				for(int j = 0; j<i*2+1; j++) {
-					if(j==0 || j==i*2)
+			} else {
+				for (int j = 0; j < i * 2 + 1; j++) {
+					if (j == 0 || j == i * 2)
 						System.out.print("*");
 					else
 						System.out.print(" ");
