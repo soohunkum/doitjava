@@ -25,7 +25,7 @@ public class Exam18b {
 				for(int j=0; j<i*2+1; j++) {
 					System.out.print(" ");
 				}
-				for (int j = 0; j < i * 2 + 1; j++) {
+				for (int j = N; j>i*2+1; j--) {
 					if (j == 0 || j == i * 2)
 						System.out.print("*");
 					else
