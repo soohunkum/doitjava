@@ -1,4 +1,4 @@
-package Chapter07;
+package chapter07;
 
 public class ArrayEx01 {
 
