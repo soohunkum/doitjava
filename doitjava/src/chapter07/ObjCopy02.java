@@ -20,7 +20,7 @@ public class ObjCopy02 {
 		outArr2[1] = arr4;
 		
 		for(int i=0; i<outArr2.length; i++) {
-			for(int j=0; j<outArr2[i].length; j++) {
+			for(int j=0; j<outArr2[i].length; j++) { 
 			System.out.print(outArr2[i][j] + " ");
 		}
 		System.out.println();
