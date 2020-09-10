@@ -1,6 +1,7 @@
 package chapter05;
 
 public class Person {
+	/*필드*/
 	String name;
 	int height;
 	double weight;
@@ -8,7 +9,7 @@ public class Person {
 	boolean married;
 	
 	
-	
+	/*생성자*/
 	public Person(String name, int height, double weight, char gender, boolean married) {
 		this.name = name;
 		this.height = height;
@@ -25,7 +26,7 @@ public class Person {
 	}
 	
 	
-	
+	/*매소드*/
 	void printName() {
 		System.out.println(this.name);
 	}
