@@ -1,10 +1,12 @@
 package chapter12;
 
-public class Member implements Comparable<Member>{
+import java.util.Comparator;
+
+public class Member2 implements Comparator<Member2>{
 		private int memberId;
 		private String memberName;
 		
-		public Member(int memberId, String memberName) {
+		public Member2(int memberId, String memberName) {
 			this.memberId = memberId;
 			this.memberName = memberName;
 		}
@@ -30,7 +32,7 @@ public class Member implements Comparable<Member>{
 		}
 		
 		@Override
-		public int compareTo(Member member) {
-			return(this.memberId - member.memberId);
+		public int compare(Member2 mem1, Member2 mem2) {
+			return mem1.getMemberId() - mem2.getMemberId();
 		}
 		}
