@@ -36,7 +36,7 @@ public class Baseball {
 						break;
 					}
 				}
-			}
+			} 
 			return com;
 		}
 		static int[] inputUser(int cnt) {
