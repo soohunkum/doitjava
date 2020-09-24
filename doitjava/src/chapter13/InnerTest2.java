@@ -1,7 +1,7 @@
 package chapter13;
 
 
-	class OutClass {
+	class OutClass2 {
 		private int num = 10;
 		private static int sNum = 20;
 
@@ -14,7 +14,7 @@ package chapter13;
 				System.out.println("InStaticClass inNum = " + inNum + "(내부클래스의 인스턴스 변수 사용)");
 				System.out.println("InStaticClass sInNum = " + sInNum + "(내부 클래스의 정적 변수 사용)");
 				System.out.println("OutClass sNum = " + sNum + "(외부클래스의 정적변수 사용)");
-
+			}
 			static void sTest() {
 				System.out.println("OutClass sNum =" + sNum + "(외부클래스의 정적변수 사용)");
 				System.out.println("InStaticClass sInNum =" + sInNum + "(내부 클래스의 정적 변수 사용)");
@@ -22,14 +22,14 @@ package chapter13;
 		}
 	}
 
-	public class InnerTest {
+	public class InnerTest2 {
 		public static void main(String[] args) {
-			OutClass.InStaticClass sInClass = new OutClass.InStaticClass();
+			OutClass2.InStaticClass sInClass = new OutClass2.InStaticClass();
 			System.out.println("정적 내부 클래스 일반 메서드 호출");
 			sInClass.inTest();
 			System.out.println();
 			System.out.println("정적 내부 클래스의 정적 메서드 호출");
-			OutClass.InStaticClass.sTest();
+			OutClass2.InStaticClass.sTest();
 		}
 	}
-}
+
