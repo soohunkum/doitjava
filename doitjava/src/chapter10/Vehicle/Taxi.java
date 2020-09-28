@@ -1,4 +1,4 @@
-package chapter10;
+package chapter10.Vehicle;
 
 public class Taxi implements Vehicle{
 	@Override

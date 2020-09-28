@@ -1,4 +1,4 @@
-package chapter10;
+package chapter10.Vehicle;
 
 public class Driver {
 		public void drive(Vehicle v) {
