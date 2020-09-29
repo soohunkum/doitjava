@@ -1,5 +1,5 @@
-package chapter12;
-import chapter12.Member;
+package chapter12.Member;
+
 public class MemberTreeSetTest {
 
 	public static void main(String[] args) {

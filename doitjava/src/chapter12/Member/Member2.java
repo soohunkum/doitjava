@@ -1,4 +1,4 @@
-package chapter12;
+package chapter12.Member;
 
 import java.util.Comparator;
 

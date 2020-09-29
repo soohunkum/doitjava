@@ -1,6 +1,5 @@
-package chapter12;
+package chapter12.Member;
 import java.util.ArrayList;
-import chapter12.Member;
 
 public class MemberArrayList {
 	private ArrayList<Member> arrayList;

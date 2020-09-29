@@ -1,4 +1,4 @@
-package chapter12;
+package chapter12.Person;
 
 public class Course<T> {
 		private String name;
