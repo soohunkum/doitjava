@@ -1,4 +1,4 @@
-package chapter12;
+package chapter12.Box;
 
 import java.util.Comparator;
 import java.util.Set;

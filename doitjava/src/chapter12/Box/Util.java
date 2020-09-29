@@ -1,4 +1,4 @@
-package chapter12;
+package chapter12.Box;
 
 public class Util {
 		public static <T> Box<T> boxing(T t){
