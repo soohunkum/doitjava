@@ -1,4 +1,4 @@
-package chapter10;
+package chapter10.Scheduler;
 
 import java.io.IOException;
 

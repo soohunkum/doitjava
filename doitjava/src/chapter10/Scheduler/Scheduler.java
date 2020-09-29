@@ -1,4 +1,4 @@
-package chapter10;
+package chapter10.Scheduler;
 
 public interface Scheduler {
 		public void getNextCall();

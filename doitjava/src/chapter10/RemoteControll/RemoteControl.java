@@ -1,4 +1,4 @@
-package chapter10;
+package chapter10.RemoteControll;
 
 public interface RemoteControl {
 	//상수 필드

@@ -1,4 +1,4 @@
-package chapter10;
+package chapter10.RemoteControll;
 
 public class SmartTelevision implements RemoteControl, Searchable{
 	private int volume;
