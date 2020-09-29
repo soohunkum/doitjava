@@ -1,4 +1,4 @@
-package chapter10;
+package chapter10.CalculatorEx;
 
 public interface Calc {
 		double PI = 3.14;

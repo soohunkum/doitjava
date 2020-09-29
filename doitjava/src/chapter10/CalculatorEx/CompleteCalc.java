@@ -1,4 +1,4 @@
-package chapter10;
+package chapter10.CalculatorEx;
 
 public class CompleteCalc extends Calculator{
 

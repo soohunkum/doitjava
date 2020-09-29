@@ -1,4 +1,4 @@
-package chapter10;
+package chapter10.CalculatorEx;
 
 public class ImplementationC implements InterfaceC{
 	public void methodA() {
