@@ -1,4 +1,4 @@
-package chapter12;
+package chapter12.Compare;
 
 public class util1 {
 		public static <T extends Number> int compare(T t1, T t2) {

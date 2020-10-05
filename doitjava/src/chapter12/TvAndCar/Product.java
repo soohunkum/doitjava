@@ -1,4 +1,4 @@
-package chapter12;
+package chapter12.TvAndCar;
 
 public class Product<T,M>{
 		private T kind;

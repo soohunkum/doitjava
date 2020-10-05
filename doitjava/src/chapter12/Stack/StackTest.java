@@ -1,4 +1,4 @@
-package chapter12;
+package chapter12.Stack;
 import java.util.ArrayList;
 
 	class MyStack{

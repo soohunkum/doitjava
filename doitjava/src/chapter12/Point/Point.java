@@ -1,4 +1,4 @@
-package chapter12;
+package chapter12.Point;
 
 public class Point<T, V> {
 		T x;

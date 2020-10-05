@@ -1,4 +1,4 @@
-package chapter12;
+package chapter12.Stack;
 import java.util.Stack;
 public class StackExample {
 	public static void main(String[] args) {

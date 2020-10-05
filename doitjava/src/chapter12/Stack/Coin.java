@@ -1,4 +1,4 @@
-package chapter12;
+package chapter12.Stack;
 
 public class Coin {
 		private int value;

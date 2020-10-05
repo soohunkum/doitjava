@@ -1,4 +1,4 @@
-package chapter12;
+package chapter12.Compare;
 
 public class BoundedTypeParameterExample {
 
