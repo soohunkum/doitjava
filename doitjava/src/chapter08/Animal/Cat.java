@@ -1,4 +1,4 @@
-package chapter08;
+package chapter08.Animal;
 
 public class Cat extends Animal{
 	public Cat() {

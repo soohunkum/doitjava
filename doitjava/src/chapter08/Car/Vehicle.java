@@ -1,4 +1,4 @@
-package chapter08;
+package chapter08.Car;
 
 public class Vehicle {
 	public void run() {
