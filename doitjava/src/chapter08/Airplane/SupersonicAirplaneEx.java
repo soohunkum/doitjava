@@ -12,6 +12,7 @@ public class SupersonicAirplaneEx {
 		sa.fly();
 		sa.land();
 
+		
 	}
 
 }

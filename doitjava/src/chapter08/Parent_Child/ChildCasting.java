@@ -1,4 +1,4 @@
-package chapter08;
+package chapter08.Parent_Child;
 
 public class ChildCasting extends ParentCasting{
 	public String field2;

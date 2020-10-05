@@ -1,4 +1,4 @@
-package chapter08;
+package chapter08.Cellphone;
 
 public class DmbCellPhone extends CellPhone{
 		int channel = 0;
