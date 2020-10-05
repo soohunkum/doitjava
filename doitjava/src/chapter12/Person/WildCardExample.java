@@ -1,12 +1,6 @@
-package chapter12;
+package chapter12.Person;
 
 import java.util.Arrays;
-
-import chapter12.Person.Course;
-import chapter12.Person.HighStudent;
-import chapter12.Person.Person;
-import chapter12.Person.Student;
-import chapter12.Person.Worker;
 
 public class WildCardExample {
 		public static void registerCourse(Course<?> course) {

@@ -1,4 +1,4 @@
-package chapter12;
+package chapter12.GenericPrinter;
 
 public class Powder {
 		public void doPrinting() {

@@ -1,4 +1,4 @@
-package chapter12;
+package chapter12.GenericPrinter;
 
 public class Plastic {
 		public void doPrinting() {
