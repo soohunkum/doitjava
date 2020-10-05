@@ -1,4 +1,4 @@
-package chapter09;
+package chapter09.Car;
 
 public abstract class Car {
 		public abstract void drive();

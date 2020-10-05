@@ -1,4 +1,4 @@
-package chapter09;
+package chapter09.Car;
 
 public class ManualCar extends Car{
 	@Override

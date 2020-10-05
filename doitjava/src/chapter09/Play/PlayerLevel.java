@@ -1,4 +1,4 @@
-package chapter09;
+package chapter09.Play;
 
 public abstract class PlayerLevel {
 		public abstract void run();

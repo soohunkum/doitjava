@@ -1,4 +1,4 @@
-package chapter09;
+package chapter09.Play;
 
 public class AdvancedLevel extends PlayerLevel{
 	@Override
