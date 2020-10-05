@@ -1,4 +1,4 @@
-package chapter05;
+package chapter08.Calculator;
 
 public class CalcStatic {
 	static double pi = 3.14159;  //Á¤Àû¸É¹ö(static)

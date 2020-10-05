@@ -1,4 +1,4 @@
-package chapter05;
+package chapter08.Calculator;
 
 public class CalcStaticEx {
 
