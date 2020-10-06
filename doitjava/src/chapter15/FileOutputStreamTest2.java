@@ -20,5 +20,5 @@ public class FileOutputStreamTest2 {
 		System.out.println("출력이 완료되었습니다");
 
 	}
-
+ 
 }

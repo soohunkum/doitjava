@@ -1,7 +1,6 @@
 package chapter15;
 
 import java.io.FileOutputStream;
-import java.io.IOException;
 
 public class FileOutputStreamTest0 {
 
@@ -9,9 +8,9 @@ public class FileOutputStreamTest0 {
 		FileOutputStream fos = null;
 		try {
 		
-		fos = new FileOutputStream("input2.txt");
-for(int i=65; i<65+27; i++) {
-	fos.write((char)i);
+		fos = new FileOutputStream("a.zip");
+for(int i=0; i<5000000; i++) {
+	fos.write((char)(int)Math.random()*70000);
 }
 
 	
@@ -21,9 +20,10 @@ for(int i=65; i<65+27; i++) {
 	if(fos != null) 
 		try {
 			fos.close();
-		}catch(IOException e) {
+		}catch(Exception e) {
 			e.printStackTrace();
 		}
 }
+		System.out.println("파일이 생성되었습니다");
 }
 }
