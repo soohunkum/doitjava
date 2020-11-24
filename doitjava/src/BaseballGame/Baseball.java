@@ -15,7 +15,7 @@ public class Baseball {
 			System.out.println("카운트:" + cnt);
 			user = inputUser(cnt);
 			int[] result = compareArray(com,user);
-			System.out.println("strike:" + result[0] + ",ball" + result[1]);
+			System.out.println("strike:" + result[0] + ",ball:" + result[1]);
 			System.out.println();
 			if(result[0] ==3) {
 				System.out.println("정답입니다. 게임을 종료합니다");
